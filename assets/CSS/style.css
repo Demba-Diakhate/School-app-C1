@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Sen", sans-serif;
+}
+header{
+    border-bottom: #FFD550 2px solid;
+}
+.en-tete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+.logo-libscode{
+    width: 100px;
+    height: 60px;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.nav-bar ul li {
+    color: #AAEBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+}
+.nav-bar ul li:hover{
+    color: white;
+    background-color: #FFD550;
+    font-size: 12px;
+}
+/* Page d'acceuil */
+.acceuil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(217, 217, 217, 0.1);
+    
+}
+.voir-plus{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #AAEBFF;
+    width: 400px;
+    height: 90px;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.btn-en-savoir-plus{
+    background-color: #FFD550;
+    width: 120px;
+    height: 50px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.image-acceuil{
+    width: 600px;
+    height: 500px;
+    margin-right: 30px;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-left: 30px;
+}
+.text h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+/* Lot de box1 */
+.lot-box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+.box1{
+    width: 250px;
+    height: 450px;
+    border-radius: 25px;
+    padding: 35px;
+    background-color: #FEFEFE;
+    border: #DCDFE3 1px solid;
+    box-shadow: rgb(0, 0, 0, 0.1) 2px 2px 5px;
+    
+}
+.logo-box1{
+    width: 70px;
+    height: 70px;
+}
+.box1 h3{
+    font-size: 30px;
+    width: 90px;
+    font-weight: 800;
+}
+/* CGU(Condition Générale d'utilisation) */
+.sect-CGU{
+    margin-left: 100px;
+}
+.lot-box2{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+h4{
+    color: #FFD550;
+    font-weight: 950;
+    width: 390px;
+}
+.text-CGU{
+    color: #AAEBFF;
+    font-weight: 700;
+    font-size: 15px;
+}
+.devenir-formateur{
+    background-color: #AAEBFF;
+    width: 850px;
+    height: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+    border-radius: 16px;
+    border: 1px solid #A9A9A9;
+    box-shadow: 2px 7px 5px 0px rgba(0, 0, 0, 0.071);
+    position: relative;
+}
+.titre3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+.devenir-formateur p{
+    width: 500px;
+    font-size: 14px;
+    margin-top: 70px;
+}
+.partager-02{
+    width: 60px; 
+    height: 60px; 
+    position: absolute; 
+    left: 820px;
+    top: 210px;
+}
+.evenement-space{
+    background-color: #AAEBFF;
+    width: 850px;
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+    border-radius: 16px;
+    border: 1px solid #A9A9A9;
+    box-shadow: 2px 7px 5px 0px rgba(0, 0, 0, 0.071);
+}
+.polygon{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+.cercle-jaune{
+    border: #FFD550 1px solid;
+}
+.cercle-noire{
+    border: #000000 1px solid;
+}
+.cercle-gris{
+    border: #A9A9A9 1px solid;
+}
+.polygon img{
+    width: 20px;
+}
+.devenir-formateur:hover, .evenement-space:hover {
+    border: 1.5px solid #FFD550;
+}
+
+/* Les événements réscents */
+.evenements-rescents{
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.lot-box3{
+    display: flex;
+    gap: 40px;
+    margin-top: 80px;
+}
+.box3{
+    min-width: 215px;
+    height: 350px;
+}
+.cage-titre{
+    background-color: #FFD550;
+    height: 150px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-top: 10px;
+    border: #A7BEC6 1px solid;
+
+}
+.bouton-box3{
+    margin-top: 30px;
+    width: 70px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #AAEBFF;
+    font-weight: 800;
+    font-size: 8px;
+}
+.voir-tous-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #43DCFF;
+    font-weight: 800;
+    margin-top: 90px;
+    margin-left: 950px;
+}
+.voir-tous-1 img{
+    width: 50px;
+    height: 50px;
+}
+/* Aperçu de nos cours */
+.aperçu-de-nos-cours{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.lot-box4{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px;
+}
+.trois-box4{
+    display: flex;
+    gap: 50px;
+}
+.box4{
+    background-color: #F3FCFF;
+    border: 1px solid #A7BEC6;
+    border-radius: 30px;
+    width: 310px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box4 img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+.box4 h3{
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: -10px;
+}
+.box4 p{
+    margin-left: 20px;
+    font-size: 23px;
+}
+
+.voir-tous-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #43DCFF;
+    font-weight: 800;
+    margin-top: 90px;
+    margin-left: 950px;
+}
+.voir-tous-2 img{
+    width: 50px;
+    height: 50px;
+}
+.frameworks{
+    background-color: #F3FCFF;
+    border: 1px solid #A7BEC6;
+    border-radius: 30px;
+    width: 310px;
+    height: 320px;
+}
+.frameworks img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.frameworks h3{
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: -10px;
+    margin-left: 20px;
+}
+.frameworks p{
+    margin-left: 20px;
+    font-size: 23px;
+}
