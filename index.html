@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acceuil</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 <body>
@@ -14,12 +15,12 @@
             </div>
             <nav class="nav-bar">
                 <ul>
-                    <li>Cours</li>
-                    <li>Evenements</li>
-                    <li>À propos</li>
-                    <li>CGU</li>
-                    <li>Connexion</li>
-                    <li>Inscription</li>
+                    <li><a href="pages/cours.html">Cours</a></li>
+                    <li><a href="pages/evenements.html">Evenements</a></li>
+                    <li><a href="pages/a-propos.html">À propos</a></li>
+                    <li><a href="pages/CGU.html" target="_blank">CGU</a></li>
+                    <li><a href="pages/connexion.html" target="_blank">Connexion</a></li>
+                    <a href="pages/inscription.html" target="_blank" class="incription">Inscription</a>
                 </ul>
         </nav>
         </div>
@@ -60,72 +61,106 @@
             <h4>Pour plus de détails, visitez nos Conditions Générales d’utilisation.</h4>
             <p class="text-CGU">CGU</p>
             <div class="lot-box2">
-                <div class="devenir-formateur">
+                <div class="cgu-carte devenir-formateur">
                     <h3 class="titre3">Comment devenir formateur ?<span class="polygon cercle-jaune"><img src="assets/Images/Polygon-haut.png" alt="Polygon-haut"></span></h3>
-                    <p>Avant de pouvoir  partager un cours, 
-                        il va falloir faire une demande à l’admin, 
-                        qui va a son tours étudier et valider ou non la demande. 
-                        Une fois validé vous aurez le rôle créateurs et un espace pour rédiger, 
-                        partager, évaluer et faire le suivi de votre cours</p>
-                    <img src="assets/Images/partager-02.png" alt="partage" class="partager-02">
+                    <div class="text-box2">
+                        <p>Avant de pouvoir  partager un cours, 
+                            il va falloir faire une demande à l’admin, 
+                            qui va a son tours étudier et valider ou non la demande. 
+                            Une fois validé vous aurez le rôle créateurs et un espace pour rédiger, 
+                            partager, évaluer et faire le suivi de votre cours</p>
+                        <img src="assets/Images/partager-02.png" alt="partage" class="partager-02">
+                    </div>
                 </div>
-                <div class="evenement-space">
-                    <h3 class="titre3">Partager un évément <span class="polygon cercle-noire"><img src="assets/Images/Polygon-bas.png" alt="Polygon-bas"></span></h3>             
+                <div class="cgu-carte evenement-space">
+                    <h3 class="titre3">Partager un évément <span class="polygon cercle-noire"><img src="assets/Images/Polygon-haut.png" alt="Polygon-haut"></span></h3>
+                    <div class="text-box2">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto autem necessitatibus blanditiis iusto odit, 
+                            maiores ipsum aliquid incidunt velit eum provident delectus perferendis, eveniet tenetur nulla et ullam deleniti. 
+                            Accusamus!</p>
+                        <img src="assets/Images/partager-02.png" alt="partage" class="partager-02">             
+                    </div>
                 </div>
-                <div class="evenement-space">
-                    <h3 class="titre3">Acceder à mon space <span class="polygon cercle-gris"><img src="assets/Images/Polygon-bas.png" alt="Polygon-bas"></span></h3>
+                <div class="cgu-carte evenement-space">
+                    <h3 class="titre3">Acceder à mon space <span class="polygon cercle-gris"><img src="assets/Images/Polygon-haut.png" alt="Polygon-haut"></span></h3>
+                    <div class="text-box2">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto autem necessitatibus blanditiis iusto odit, 
+                            maiores ipsum aliquid incidunt velit eum provident delectus perferendis, eveniet tenetur nulla et ullam deleniti. 
+                            Accusamus!</p>
+                        <img src="assets/Images/partager-02.png" alt="partage" class="partager-02">
+                    </div>
                 </div>
             </div>
 
         </section>
         <section class="evenements-rescents">
             <h4>Les événements réscents</h4>
-            <div class="lot-box3">
-                <div class="box3">
-                    <div class="cage-titre">
-                        <p>Titre de <br>l’événement</p>
-                        <p>22/03/2029/ 12h30mn</p>
+            <div class="swiper">
+                <div class="lot-box3 swiper-wrapper">
+                    <div class="box3 swiper-slide">
+                        <div class="cage-titre">
+                            <p>Titre de <br>l’événement</p>
+                            <p>22/03/2029/ 12h30mn</p>
+                        </div>
+                        <button class="bouton-box3">Voir plus</button>
+                        <p>Avant de pouvoir  partager un cours, il va falloir faire une demande à l’admin, 
+                            qui va a son tours étudier et valider ou non la demande.</p>
                     </div>
-                    <button class="bouton-box3">Voir plus</button>
-                    <p>Avant de pouvoir  partager un cours, il va falloir faire une demande à l’admin, 
-                        qui va a son tours étudier et valider ou non la demande.</p>
-                </div>
-                <div class="box3">
-                    <div class="cage-titre">
-                        <p>Titre de <br>l’événement</p>
-                        <p>22/03/2029/ 12h30mn</p>
+                    <div class="box3 swiper-slide">
+                        <div class="cage-titre">
+                            <p>Titre de <br>l’événement</p>
+                            <p>22/03/2029/ 12h30mn</p>
+                        </div>
+                        <button class="bouton-box3">Voir plus</button>
+                        <p>Avant de pouvoir  partager un cours, il va falloir faire une demande à l’admin, 
+                            qui va a son tours étudier et valider ou non la demande.</p>
                     </div>
-                    <button class="bouton-box3">Voir plus</button>
-                    <p>Avant de pouvoir  partager un cours, il va falloir faire une demande à l’admin, 
-                        qui va a son tours étudier et valider ou non la demande.</p>
-                </div>
-                <div class="box3">
-                    <div class="cage-titre">
-                        <p>Titre de <br>l’événement</p>
-                        <p>22/03/2029/ 12h30mn</p>
+                    <div class="box3 swiper-slide">
+                        <div class="cage-titre">
+                            <p>Titre de <br>l’événement</p>
+                            <p>22/03/2029/ 12h30mn</p>
+                        </div>
+                        <button class="bouton-box3">Voir plus</button>
+                        <p>Avant de pouvoir  partager un cours, il va falloir faire une demande à l’admin, 
+                            qui va a son tours étudier et valider ou non la demande.</p>
                     </div>
-                    <button class="bouton-box3">Voir plus</button>
-                    <p>Avant de pouvoir  partager un cours, il va falloir faire une demande à l’admin, 
-                        qui va a son tours étudier et valider ou non la demande.</p>
-                </div>
-                <div class="box3">
-                    <div class="cage-titre">
-                        <p>Titre de <br>l’événement</p>
-                        <p>22/03/2029/ 12h30mn</p>
+                    <div class="box3 swiper-slide">
+                        <div class="cage-titre">
+                            <p>Titre de <br>l’événement</p>
+                            <p>22/03/2029/ 12h30mn</p>
+                        </div>
+                        <button class="bouton-box3">Voir plus</button>
+                        <p>Avant de pouvoir  partager un cours, il va falloir faire une demande à l’admin, 
+                            qui va a son tours étudier et valider ou non la demande.</p>
                     </div>
-                    <button class="bouton-box3">Voir plus</button>
-                    <p>Avant de pouvoir  partager un cours, il va falloir faire une demande à l’admin, 
-                        qui va a son tours étudier et valider ou non la demande.</p>
-                </div>
-                <div class="box3">
-                    <div class="cage-titre">
-                        <p>Titre de <br>l’événement</p>
-                        <p>22/03/2029/ 12h30mn</p>
+                    <div class="box3 swiper-slide">
+                        <div class="cage-titre">
+                            <p>Titre de <br>l’événement</p>
+                            <p>22/03/2029/ 12h30mn</p>
+                        </div>
+                        <button class="bouton-box3">Voir plus</button>
+                        <p>Avant de pouvoir  partager un cours, il va falloir faire une demande à l’admin, 
+                            qui va a son tours étudier et valider ou non la demande.</p>
                     </div>
-                    <button class="bouton-box3">Voir plus</button>
-                    <p>Avant de pouvoir  partager un cours, il va falloir faire une demande à l’admin, 
-                        qui va a son tours étudier et valider ou non la demande.</p>
+                    <div class="box3 swiper-slide">
+                        <div class="cage-titre">
+                            <p>Titre de <br>l’événement</p>
+                            <p>22/03/2029/ 12h30mn</p>
+                        </div>
+                        <button class="bouton-box3">Voir plus</button>
+                        <p>Avant de pouvoir  partager un cours, il va falloir faire une demande à l’admin, 
+                            qui va a son tours étudier et valider ou non la demande.</p>
+                    </div>
                 </div>
+                 <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
             </div>
             <div class="voir-tous-1">
                 Voir Tous <img src="assets/Images/partager-02.png" alt="Suite">
@@ -189,7 +224,7 @@
                             qui va a son tours étudie.</p>
                     </div>
                     <div class="frameworks">
-                        <img src="assets/Images/image-17.png" alt="html">
+                        <img src="assets/Images/Laravel.png" alt="html">
                         <h3>Titre</h3>
                         <p>Avant de pouvoir  partager un cours, 
                             il va falloir faire une demande à l’admin, 
@@ -208,8 +243,28 @@
                 Voir Tous <img src="assets/Images/partager-02.png" alt="Suite">
             </div>
         </section>
+        <section class="contact">
+            <div class="contact-elements">
+                <div class="formulaire-contact">
+                    <h2>Nous <br>contacter</h2>
+                    <input type="text" placeholder="Vos avis comptent" class="input-text">
+                    <button class="bouton-envoyer">envoyer</button>
+                </div>
+                <img src="assets/Images/Letter.png" alt="Lettre" class="lettre">
+            </div>
+        </section>
     </main>
-    <footer></footer>
-    <script src="javaScript/home.js"></script>
+    <footer>
+        <div class="pied-page">
+            <div class="reseaux-sociaux">
+            <img src="assets/Images/facebook.png" alt="facebook">
+            <img src="assets/Images/twitter-alt.png" alt="twitter">
+            <img src="assets/Images/youtube.png" alt="youtube">
+        </div>
+        <p>© Copyright 2022- Libscode</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/home.js"></script>
 </body>
 </html>

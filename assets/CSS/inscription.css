@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Sen", sans-serif;
+}
+.inscription{
+    border: 1px solid #FFD550;
+    box-shadow: rgba(0, 0, 0, 0.078) 0px 10px 29px 11px;
+    background-color: #FFFFFF;
+    width: 560px;
+    height: 420px;
+    border-radius: 20px;
+    margin: 100px auto;
+}
+.inscription-content{
+    /* margin-left: 40px;
+    margin-top: 30px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    font-weight: 900;
+}
+.input-data{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-data input{
+    width: 340px;
+    height: 50px;
+    border: #000000 1px solid;
+    border-radius: 30px;
+}
+.input-data input::placeholder{
+    color: #000000;
+    font-family: "Sen", sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+.btn-inscription{
+    width: 130px;
+    height: 40px;
+    border-radius: 13px;
+    border: none;
+    font-family: "Sen", sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #FFD550;
+    color: #000000;
+    margin-top: 15px;
+}
